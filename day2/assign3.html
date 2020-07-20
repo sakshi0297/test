@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3>Methods of strings & arrays.</h3>
+
+        <script>
+            console.log("String methods:-")
+
+            console.log("a) Split method")
+            var txt = "'abcdefgh'";
+
+            console.log(`The original string is ${txt}`);
+            var txt1 = txt.split("d");
+            
+            console.log(`The updated string is ${txt1}`);
+
+            console.log("b) Slice method");
+            var txt = ["my" ,"name","is","sakshi"];
+
+            console.log(`The original string is ${txt}`);
+            var txt1 = txt.slice(3);
+
+            console.log(`The updated string is ${txt1}`);
+
+            console.log("c) Search method");
+            var txt = "'i am sakshi'"
+
+            console.log(`The original string is ${txt}`);
+            var txt1 = txt.search("am");
+
+            console.log(`The updated string is ${txt1}`);
+
+//pop push join tostring shift unshift delete merging_arrays
+            console.log("Array methods:-")
+            console.log("a) join method");
+            var txt = ["a","b","c","d","e"]
+
+            console.log(`The original string is ${txt}`);
+            var txt1 = txt.join(" * ");
+            console.log(`The updated string is ${txt1}`);
+
+            console.log("b) toString method");
+            var txt = ["a","b","c","d","e"]
+
+            console.log(`The original string is ${txt}`);
+            var txt2 = txt.toString();
+            console.log(typeof txt2)
+
+            console.log("b) delete method");
+            var text = ["a","b","c","d","e"]
+
+            console.log(`The original string is ${txt}`);
+            var txt3 = delete text[0];
+            console.log(`The updated string is ${text}`);
+        </script>
+    </body>
+</html>
